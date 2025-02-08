@@ -1,0 +1,11 @@
+argocd app create argo-demo \
+
+  --repo https://github.com/mariobsdw/argocd.git \
+
+  --path . \
+
+  --dest-server https://kubernetes.default.svc \
+
+  --dest-namespace argo-demo
+
+application 'argo-demo' created
