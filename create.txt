@@ -8,4 +8,7 @@ argocd app create argo-demo \
 
   --dest-namespace argo-demo
 
-application 'argo-demo' created
+#application 'argo-demo' created
+# zmiany w nowej galezi new-feature
+
+
